@@ -1,0 +1,74 @@
+Problem Statement : Smart College Admission System
+
+Design a Java program for a College Admission System using decision-making statements.
+
+The system should perform the following operations:
+
+Requirements
+Accept:
+Student Name
+Age
+Marks
+Course Code (A, B, C)
+Fee Paid Status (true/false)
+Validate age using nested if
+Age must be between 1 to 100
+If age >= 18 → Eligible
+Else → Not Eligible
+Check marks using else-if ladder
+90+ → Grade A
+80+ → Grade B
+70+ → Grade C
+60+ → Grade D
+Below 60 → FAIL
+Select course using switch case
+A → Java Full Stack
+B → Python AI
+C → Data Science
+Default → Invalid Course
+Check fee payment using if-else
+If paid → Admission Confirmed
+Else → Pay Fees First
+Sample Input
+Name : Tejas
+Age : 21
+Marks : 84
+Course Code : B
+Fee Paid : true
+Expected Output
+---- COLLEGE ADMISSION SYSTEM ----
+
+Valid Age
+Eligible for Admission
+
+Grade B
+
+Selected Course : Python AI
+
+Admission Confirmed
+Another Input
+Name : Rohan
+Age : 16
+Marks : 52
+Course Code : D
+Fee Paid : false
+Expected Output
+---- COLLEGE ADMISSION SYSTEM ----
+
+Valid Age
+Not Eligible for Admission
+
+FAIL
+
+Invalid Course
+
+Pay Fees First
+Bonus Challenges
+
+Try adding:
+
+Scholarship if marks > 90
+Hostel allocation using switch
+Gender validation
+Multiple students using loops
+Menu-driven system
