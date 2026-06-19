@@ -1,13 +1,25 @@
 package com.task;
 
-public class ATMCard {
+public class UserATMCard {
+
 	// Private fields (pre-initialized)
-	private String cardNumber = "1234-5678-9012-3456";
-	private String cardHolder = "Amit Sharma";
-	private int cvv = 321;
-	private int pin = 4321;
-	private double balance = 15000.0;
+	private String cardNumber;
+	private String cardHolder;
+	private int cvv;
+	private int pin;
+	private double balance;
 	private final int otp = 123456;
+	
+	
+
+	public UserATMCard(String cardNumber, String cardHolder, int cvv, int pin, double balance) {
+		super();
+		this.cardNumber = cardNumber;
+		this.cardHolder = cardHolder;
+		this.cvv = cvv;
+		this.pin = pin;
+		this.balance = balance;
+	}
 
 	// Withdraw money with PIN check
 	public void withdraw(double amount, int enteredPin) {
