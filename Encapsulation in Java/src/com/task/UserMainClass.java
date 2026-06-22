@@ -60,6 +60,15 @@ public class UserMainClass {
 
 				break;
 				
+			case 3:
+				System.out.println("pin : ");
+
+				int showpin = sc.nextInt();
+				card.showBalance(showpin);
+				
+
+				break;
+				
 			case 6:
 				System.out.println("thank you for using our app");
 
