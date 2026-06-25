@@ -14,5 +14,16 @@ public class TestBank {
 		
 		CurrentAccount ca = new CurrentAccount() ; 
 		ca.withdraw();
+		
+		System.out.println("\n-- UPI --");
+
+		
+		UPI upi = new UPI() ;		
+		upi.doPayment();
+		
+		System.out.println("\n-- NetBanking --");
+
+		NetBanking nb = new NetBanking();
+		nb.doPayment();
 	}
 }
