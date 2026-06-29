@@ -1,0 +1,6 @@
+1.hello from bufferedwriter...
+2.How are you doing?..
+3.What are you doing?..
+4.Why are you doing?..
+5.Where are you?..
+6.update from bufferedwriter...
