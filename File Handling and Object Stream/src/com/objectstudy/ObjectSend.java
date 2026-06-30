@@ -3,6 +3,7 @@ package com.objectstudy;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
+import java.util.Iterator;
 
 public class ObjectSend {  // Serialization
 
@@ -21,6 +22,13 @@ public class ObjectSend {  // Serialization
 			oos.writeObject(emp2);
 			oos.writeObject(emp3);
 			oos.writeObject(emp4);
+			
+			Employee[] emps = {emp1 , emp2, emp3 , emp4} ; 
+			
+			System.out.println("Data Inserted....");
+			for (Employee e : emps) {
+				System.out.println(e);
+			}
 			
 			System.out.println("object inserted to file : "+file.getName());
 		}
