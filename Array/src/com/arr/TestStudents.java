@@ -50,6 +50,11 @@ public class TestStudents {
 		// 500..
 
 		Students[] allstudents = { s1, s2, s3, s4, s5 };
+		
+		Students s6 = new Students(6, "Sam", 1);
+		
+		
+		
 
 		System.out.println("\ncheck fail or pass status : \n");
 
@@ -66,3 +71,12 @@ public class TestStudents {
 	}
 
 }
+/*
+ * Task : 
+ * solve the array logicals programs { no AI }
+ * Array Limitations : 
+ * 1. fixed in sized
+ * 2. cannot modify it
+ * 3. no inbuilt functions
+ * 4. if element is deleted still index exist with default value
+ */
