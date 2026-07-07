@@ -1,13 +1,13 @@
 package com.liststudy;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 
 public class DemoList {
 
 	public static void main(String[] args) {
 
-		List<Integer> nums = new LinkedList<>();
+		List<Integer> nums = new ArrayList<>();
 
 		nums.add(1);
 		nums.add(5);
@@ -25,3 +25,6 @@ public class DemoList {
 	}
 
 }
+// why companies do not prefer vector ? 
+// --> it is thread safe and collection deals with multiple object & operation on data so fast execution
+// of thread isneeded where thread safe means slow execution 
